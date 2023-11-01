@@ -8,16 +8,18 @@
     
 </head>
 <body onload = "genRandNum();">
+    
     <h1> Guess The Number</h1>
     <p></p>
-    
+
     <p> Guess a number between 1-10.</p>
-    <p> You have 3 attempts to guess the number</p>
+    
     <div class = "form">
         <label for = "guessField">Enter a guess:</label>
         <input type  = "text" id ="guessField" class = "guessField">
         <input type = "submit" value = "Submit guess" class="guessSubmit" id="submitGuess" onclick = "startGuessNum();">
-        <p><label>Remaining Guesses:</label> <input type  = "text" id ="guessRemain" class = "guessField"></p>
+        <p><label>You have</label> <input type  = "text" id ="guessRemain" class = "textLabel" disabled><label> guesses remaining</label></p>
+        <p> <input type  = "text" id ="errorMsg" class = "textLableErr" disabled></p>
         <div class="message"></div>
     </br>
     </div>

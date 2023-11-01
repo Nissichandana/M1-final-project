@@ -1,5 +1,7 @@
 body{
     background-color: rgb(230, 135, 135);
+    background-image: linear-gradient(red, yellow,blue);
+     background-image: url("https://pixabay.com/photos/bokeh-lights-background-wallpaper-2072271/");
     font-family: sans-serif;
     width: 50%;
     max-width: 800 px;
@@ -11,4 +13,22 @@ body{
 }
 .guessField{
  background-color: rgb(230, 107, 189);
+}
+
+.textLabel{
+    background: rgba(0,0,0,0);
+    border: none;
+    /* height: 30px; */
+    width: 10px;
+    font-size: large;
+    font-weight: bold; 
+}
+
+.textLableErr{
+    background: rgba(0,0,0,0);
+    border: none;
+    /* height: 30px; */
+    width: 700px;
+    font-size: large;
+    font-weight: bold;   
 }
