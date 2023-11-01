@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(230, 135, 135);
+    font-family: sans-serif;
+    width: 50%;
+    max-width: 800 px;
+    min-width: 480 px;
+    margin: 0 auto;
+}
+#submitGuess{
+    background-color: rgb(173, 231, 247);
+}
+.guessField{
+ background-color: rgb(230, 107, 189);
+}
